@@ -212,3 +212,20 @@ using namespace std;
 //     }
 //     return 0;
 // }
+
+
+// --------------------------------------- reverse array
+int main(){
+    int mysize;
+    cout<<"Enter array size :";
+    cin>>mysize;
+    int myarr[mysize] = {};
+    for(int i=0; i<mysize; i++){
+        cout<<"enter array item :";
+        cin>>myarr[i];
+    }
+    for(int i=mysize-1; i>-1; i--){
+        cout<<myarr[i]<<endl;
+    }
+    return 0;
+}
