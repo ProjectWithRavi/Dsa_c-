@@ -97,6 +97,8 @@ int main(){
 // }
 
 
+
+
 // ************************ merge two vector
 // vector <int> vec1;
 // vector <int> vec2;
@@ -164,33 +166,33 @@ int main(){
 
 
 // ************ third way to merge two array;
-int vecsize1,vecsize2;
-cout<<"enter vector first size :";
-cin>>vecsize1;
-cout<<"enter vector second size :";
-cin>>vecsize2;
-vector <int> vect1(vecsize1);
-vector <int> vect2(vecsize2);
-vector <int> mergeVector(vecsize1+vecsize2);
+// int vecsize1,vecsize2;
+// cout<<"enter vector first size :";
+// cin>>vecsize1;
+// cout<<"enter vector second size :";
+// cin>>vecsize2;
+// vector <int> vect1(vecsize1);
+// vector <int> vect2(vecsize2);
+// vector <int> mergeVector(vecsize1+vecsize2);
 
-cout<<"first vector "<<endl;
+// cout<<"first vector "<<endl;
 
-for(int i=0; i<vect1.size(); i++){
-  cin>>vect1[i];
-  mergeVector[i] = vect1[i];
+// for(int i=0; i<vect1.size(); i++){
+//   cin>>vect1[i];
+//   mergeVector[i] = vect1[i];
 
-}
+// }
 
-cout<<"second vector "<<endl;
-for(int i=0; i<vect2.size(); i++){
-  cin>>vect2[i];
-  mergeVector[vect1.size()+i] = vect2[i];
+// cout<<"second vector "<<endl;
+// for(int i=0; i<vect2.size(); i++){
+//   cin>>vect2[i];
+//   mergeVector[vect1.size()+i] = vect2[i];
 
-}
+// }
 
-for(int i=0; i<mergeVector.size(); i++){
-  cout<<mergeVector[i]<<" ";
-}
+// for(int i=0; i<mergeVector.size(); i++){
+//   cout<<mergeVector[i]<<" ";
+// }
 
 // ***************************************************************************************************
 
