@@ -11,6 +11,5 @@ int main(){
         cout<<value<<" ";
     }
 
-
     return 0;
 }
