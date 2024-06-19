@@ -3,6 +3,9 @@
 #include <vector>     //use for vector
 using namespace std;
 
+
+//filteration of data according to a certain condition
+
 int main(){
     vector <int> arr = {3,2,4,1,6};
     sort(arr.begin(),arr.end());
